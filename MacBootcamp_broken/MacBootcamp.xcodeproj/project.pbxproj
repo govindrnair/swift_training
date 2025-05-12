@@ -7,11 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2820CE4D2DD1A53D00BB7142 /* ExtractedFunctionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820CE4C2DD1A53D00BB7142 /* ExtractedFunctionsBootcamp.swift */; };
+		2820CE512DD1AD6F00BB7142 /* ExtractSubviewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820CE502DD1AD6F00BB7142 /* ExtractSubviewBootcamp.swift */; };
+		2820CE532DD1B2B600BB7142 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820CE522DD1B2B600BB7142 /* BindingBootcamp.swift */; };
+		2820CE572DD1D63100BB7142 /* BasicAnimationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820CE562DD1D63100BB7142 /* BasicAnimationsBootcamp.swift */; };
+		2820CE612DD1EB5400BB7142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2820CE582DD1EB5400BB7142 /* Assets.xcassets */; };
+		2820CE622DD1EB5400BB7142 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820CE5B2DD1EB5400BB7142 /* Item.swift */; };
+		2820CE632DD1EB5400BB7142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820CE5A2DD1EB5400BB7142 /* ContentView.swift */; };
+		2820CE642DD1EB5400BB7142 /* ButtonBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820CE592DD1EB5400BB7142 /* ButtonBootcamp.swift */; };
+		2820CE652DD1EB5400BB7142 /* MacBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820CE5E2DD1EB5400BB7142 /* MacBootcampApp.swift */; };
 		28FEC0942DC3EC3F00E3541D /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FEC0932DC3EC3F00E3541D /* StateBootcamp.swift */; };
 		28FEC0962DC3EECF00E3541D /* FunctionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FEC0952DC3EECF00E3541D /* FunctionBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2820CE4C2DD1A53D00BB7142 /* ExtractedFunctionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionsBootcamp.swift; sourceTree = "<group>"; };
+		2820CE502DD1AD6F00BB7142 /* ExtractSubviewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewBootcamp.swift; sourceTree = "<group>"; };
+		2820CE522DD1B2B600BB7142 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
+		2820CE562DD1D63100BB7142 /* BasicAnimationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationsBootcamp.swift; sourceTree = "<group>"; };
+		2820CE582DD1EB5400BB7142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2820CE592DD1EB5400BB7142 /* ButtonBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBootcamp.swift; sourceTree = "<group>"; };
+		2820CE5A2DD1EB5400BB7142 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2820CE5B2DD1EB5400BB7142 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2820CE5C2DD1EB5400BB7142 /* MacBootcamp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacBootcamp.entitlements; sourceTree = "<group>"; };
+		2820CE5D2DD1EB5400BB7142 /* MacBootcamp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MacBootcamp.xcodeproj; sourceTree = "<group>"; };
+		2820CE5E2DD1EB5400BB7142 /* MacBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBootcampApp.swift; sourceTree = "<group>"; };
 		28FEC07C2DC3D88600E3541D /* MacBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FEC0932DC3EC3F00E3541D /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
 		28FEC0952DC3EECF00E3541D /* FunctionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionBootcamp.swift; sourceTree = "<group>"; };
@@ -36,11 +56,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2820CE5F2DD1EB5400BB7142 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
 		28FEC0732DC3D88600E3541D = {
 			isa = PBXGroup;
 			children = (
 				28FEC0932DC3EC3F00E3541D /* StateBootcamp.swift */,
 				28FEC0952DC3EECF00E3541D /* FunctionBootcamp.swift */,
+				2820CE4C2DD1A53D00BB7142 /* ExtractedFunctionsBootcamp.swift */,
+				2820CE502DD1AD6F00BB7142 /* ExtractSubviewBootcamp.swift */,
+				2820CE522DD1B2B600BB7142 /* BindingBootcamp.swift */,
+				2820CE562DD1D63100BB7142 /* BasicAnimationsBootcamp.swift */,
+				2820CE582DD1EB5400BB7142 /* Assets.xcassets */,
+				2820CE592DD1EB5400BB7142 /* ButtonBootcamp.swift */,
+				2820CE5A2DD1EB5400BB7142 /* ContentView.swift */,
+				2820CE5B2DD1EB5400BB7142 /* Item.swift */,
+				2820CE5C2DD1EB5400BB7142 /* MacBootcamp.entitlements */,
+				2820CE5D2DD1EB5400BB7142 /* MacBootcamp.xcodeproj */,
+				2820CE5E2DD1EB5400BB7142 /* MacBootcampApp.swift */,
 				28FEC07E2DC3D88600E3541D /* MacBootcamp */,
 				28FEC07D2DC3D88600E3541D /* Products */,
 			);
@@ -106,6 +142,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 28FEC07D2DC3D88600E3541D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2820CE5F2DD1EB5400BB7142 /* Products */;
+					ProjectRef = 2820CE5D2DD1EB5400BB7142 /* MacBootcamp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				28FEC07B2DC3D88600E3541D /* MacBootcamp */,
@@ -118,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2820CE612DD1EB5400BB7142 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +171,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2820CE4D2DD1A53D00BB7142 /* ExtractedFunctionsBootcamp.swift in Sources */,
+				2820CE532DD1B2B600BB7142 /* BindingBootcamp.swift in Sources */,
 				28FEC0962DC3EECF00E3541D /* FunctionBootcamp.swift in Sources */,
+				2820CE622DD1EB5400BB7142 /* Item.swift in Sources */,
+				2820CE632DD1EB5400BB7142 /* ContentView.swift in Sources */,
+				2820CE642DD1EB5400BB7142 /* ButtonBootcamp.swift in Sources */,
+				2820CE652DD1EB5400BB7142 /* MacBootcampApp.swift in Sources */,
+				2820CE572DD1D63100BB7142 /* BasicAnimationsBootcamp.swift in Sources */,
+				2820CE512DD1AD6F00BB7142 /* ExtractSubviewBootcamp.swift in Sources */,
 				28FEC0942DC3EC3F00E3541D /* StateBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

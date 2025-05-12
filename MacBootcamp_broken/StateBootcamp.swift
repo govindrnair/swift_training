@@ -39,6 +39,13 @@ struct StateBootcamp: View {
                         count -= 1
                     }
                     .buttonStyle(.plain)
+                    
+                    Button("Button 3") {
+                        backgroundColor = .blue
+                        myTitle = "Button 3 Pressed!"
+                        count += 10
+                    }
+                    .buttonStyle(.bordered)
                 }
             }
             .foregroundColor(.white)
